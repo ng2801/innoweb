@@ -1,0 +1,400 @@
+/* Resetting default browser styles */
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #828282;
+   
+}
+
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+nav img.logo {
+    width: 150px;
+    margin-right: auto;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff9d00;
+}
+
+nav .register-button {
+    background-color: #ff9d00;
+    color: white;
+    border-radius: 30px;
+    margin-left: 1rem;
+}
+
+nav .register-button:hover {
+    background-color: #868686;
+}
+
+nav .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+}
+
+/* Side Navigation */
+.side-nav {
+    height: 0%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #212121;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    background-color: #ff9d00;
+}
+
+.side-nav .close-btn {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-size: 2rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+section#poster {
+    background-image: url('images/bg4.jpg'); /* Set the background image here */
+    background-size: cover; /* Make the image cover the entire section */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.about{
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+#about{
+    background-image:url(images/bg13.png);
+    background-size: cover;
+}
+.poster {
+    max-width: 50%;
+    height: auto;            
+}
+
+/* Floating Register Button Styles 
+.floating-register-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #ff9d00;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.floating-register-btn:hover {
+    background-color: #e74c3c;
+}*/
+
+
+#countdown-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.countdown-timer {
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color:#ff9100
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+#home{
+    background-image: url(images/bg10.png);
+    background-size: cover;
+}
+
+#home p{
+    text-align: justify;
+    font-size:large;
+}
+
+#home h2{
+    text-align:left;
+    font-size:60px;
+    color: #ff9100
+}
+
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home-content {
+    flex: 1;
+    text-align:justify;
+    padding: 0.5rem;
+}
+
+.home-image {
+    flex: 1;
+    text-align: center;
+}
+
+.home-image img {
+    max-width: 70%;
+    min-width: 100px;
+    border-radius: 10px;
+}
+
+
+#about p{
+    color: #ffffff;
+}
+
+#about h2{
+    color: #ffffff;
+}
+
+
+#rules p{
+    text-align: justify;
+}
+
+#rules h2{
+    text-align: justify;
+}
+
+#rules ul{
+    color: #ffffff;
+}
+
+.rules-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.rules-content {
+    flex: 1;
+    text-align: left;
+}
+
+.rules-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.rules-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#register{
+    background-image: url(images/bg14.png);
+    background-size: cover;
+}
+
+#register button {
+    padding: 10px 20px;
+    background-color: #ff9d00;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#register a{
+    color: #fff;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#register button:hover {
+    background-color: #ac6a00;
+}
+
+#register script{
+    max-width:100%;
+}
+
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    height:auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guidelines-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 30px;
+}
+
+.guideline {
+    flex: 1;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(203, 203, 203, 0.1);
+    position: relative;
+}
+
+.guideline-icon {
+    font-size: 1.5em; /* Increase the size of the icon */
+    color: #fff;
+    position: absolute;
+    top: -20px; /* Adjust the position to overlap the container */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff9d00; /* Add background color to make it circular */
+    border-radius: 50%; /* Make the icon circular */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.guideline h3 {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+    nav .menu-icon {
+        display: block;
+    }
+    .home-container, .about-container {
+        flex-direction: column;
+    }
+    #home{
+        background-size: cover;
+        background-position: right;
+    }
+    .side-nav {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right:-500px;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .guidelines-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
