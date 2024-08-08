@@ -364,11 +364,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    *{
+        font-size: 11px;
+    }
     nav a {
         display: none;
     }
     nav .menu-icon {
         display: block;
+    }
+    .home-content{
+        font-size: 11px;
     }
     .home-container, .about-container {
         flex-direction: column;
