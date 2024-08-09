@@ -181,7 +181,6 @@ p {
 
 #home p{
     text-align: justify;
-    font-size:large;
 }
 
 #home h2{
@@ -372,9 +371,6 @@ footer {
     }
     nav .menu-icon {
         display: block;
-    }
-    .home-content{
-        font-size: 11px;
     }
     .home-container, .about-container {
         flex-direction: column;
