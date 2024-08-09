@@ -364,7 +364,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     *{
-        font-size: 11px;
+        font-size: 12px;
     }
     nav a {
         display: none;
@@ -385,6 +385,9 @@ footer {
     #home{
         background-size: cover;
         background-position: center;
+    }
+    #home h2{
+        font-size: 50px;
     }
     .side-nav {
         width: 100%;
