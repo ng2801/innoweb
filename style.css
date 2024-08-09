@@ -211,6 +211,44 @@ p {
     border-radius: 10px;
 }
 
+section.who-can-join-section {
+    background-color: #1a1a1a; /* Background color similar to the one in the image */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* To make it responsive */
+    text-align: center;
+}
+
+.category {
+    background-color: #ff9d00; /* Red background for category buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px; /* Rounded buttons */
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.category.elementary {
+    flex-basis: 30%; 
+}
+
+.category.junior {
+    flex-basis: 30%;
+}
+
+.category.senior {
+    flex-basis: 30%;
+}
 
 #about p{
     color: #ffffff;
@@ -222,11 +260,11 @@ p {
 
 
 #rules p{
-    text-align: justify;
+    text-align: center;
 }
 
 #rules h2{
-    text-align: justify;
+    text-align: center;
 }
 
 #rules ul{
@@ -331,6 +369,11 @@ footer {
     flex-wrap: wrap;
     position: relative;
     gap: 30px;
+    flex-basis: 10%
+}
+
+.gp{
+    color: #828282;
 }
 
 .guideline {
@@ -360,7 +403,43 @@ footer {
 .guideline h3 {
     margin-top: 20px; 
     text-align: center;
+    color: #ff9100;
 }
+.outcomes-section {
+    text-align: center;
+    background-color: #1a1a1a; /* Dark background for the section */
+    padding: 40px 20px;
+    border-radius: 10px;
+    color: #fff; /* White text color */
+}
+
+.outcomes-section h2 {
+    color:#ff9100 ; /* Orange color for the heading */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.outcomes-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between outcome items */
+}
+
+.outcome-item img {
+    width: 200px; /* Image size */
+    height: 200px;
+    border-radius: 100%; /* Make images circular */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.outcome-item p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
 
 @media screen and (max-width: 768px) {
     *{
@@ -396,6 +475,25 @@ footer {
         right:-500px;
         transition: 0.5s;
     }
+    .categories {
+        flex-direction: column;
+    }
+
+    .category {
+        flex-basis: 100%; /* Make each category full width on mobile */
+        margin: 10px 0;
+    }
+
+    .outcomes-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .outcome-item {
+        width: 80%; /* Adjust width for mobile */
+        margin-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
