@@ -48,6 +48,15 @@ nav .register-button {
     margin-left: 1rem;
 }
 
+.register-button {
+    background-color: #ff8000;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
 nav .register-button:hover {
     background-color: #868686;
 }
@@ -229,7 +238,7 @@ section.who-can-join-section {
 }
 
 .category {
-    background-color: #ff9d00; /* Red background for category buttons */
+    background-color: rgb(34, 34, 34); /* Red background for category buttons */
     color: #fff;
     padding: 10px 20px;
     border-radius: 30px; /* Rounded buttons */
@@ -276,7 +285,6 @@ section.who-can-join-section {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    padding-left: 10%;
 }
 
 .rules-content {
