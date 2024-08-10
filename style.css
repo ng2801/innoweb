@@ -528,7 +528,7 @@ footer {
     }
 
     .outcomes-grid {
-        overflow-x: scroll;
+        overflow-x: auto;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
         -ms-overflow-style: none;
@@ -537,13 +537,13 @@ footer {
     }
 
     .outcome-item {
-        flex: 0 0 100%; /* Each item takes up 100% of the container's width */
+        flex: 0 0 auto;  /* Each item takes up 100% of the container's width */
         scroll-snap-align: center; /* Center the item when scrolled */
         margin-right: 10px; /* Space between items */
     }
 
     .gallery-item {
-        flex: 0 0 100%; /* Each item takes up 100% of the container's width */
+        flex: 0 0 auto;  /* Each item takes up 100% of the container's width */
         scroll-snap-align: center; /* Center the item when scrolled */
         margin-right: 10px; /* Space between items */
     }
