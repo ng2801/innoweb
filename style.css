@@ -395,7 +395,7 @@ footer {
     background-color: #1a1a1a;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(203, 203, 203, 0.1);
-    position: relative;
+    position:relative;
 }
 
 .guideline-icon {
@@ -468,8 +468,16 @@ footer {
         padding-bottom: 2rem;
      }
 
+     .register-button{
+        margin-left: 35%;
+     }
+
     .home-container, .about-container {
         flex-direction: column;
+    }
+    .guidelines-container {
+        flex-direction: column;
+        align-items: center;
     }
     .home-image img {
         width: 100%;
