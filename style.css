@@ -121,6 +121,11 @@ section#poster {
     text-align: center;
 }
 
+#fl{
+    max-width: 70%;
+    padding-bottom: 2rem;
+ }
+
 .about{
     border-radius: 10px;
     width: 100%;
@@ -220,7 +225,7 @@ p {
     border-radius: 10px;
 }
 
-section.who-can-join-section {
+.who-can-join-section {
     background-color: #1a1a1a; /* Background color similar to the one in the image */
     padding: 20px;
     border-radius: 20px; /* Rounded corners */
@@ -266,7 +271,6 @@ section.who-can-join-section {
 #about h2{
     color: #ffffff;
 }
-
 
 #rules p{
     text-align: center;
@@ -459,6 +463,12 @@ footer {
     nav .menu-icon {
         display: block;
     }
+
+    #fl{
+        max-width: 100%;
+        padding-bottom: 2rem;
+     }
+
     .home-container, .about-container {
         flex-direction: column;
     }
@@ -470,7 +480,7 @@ footer {
         max-width: 100vw; /* Ensure the image doesn't exceed viewport width */
     }
     #home{
-        background-size: cover;
+        background-size: 1000%;
         background-position: center;
     }
     #home h2{
