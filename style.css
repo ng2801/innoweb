@@ -537,9 +537,15 @@ footer {
     }
 
     .outcome-item {
-        flex-basis: 100%;
-        max-width: 300px; 
-        margin: 0 auto 20px;
+        flex: 0 0 100%; /* Each item takes up 100% of the container's width */
+        scroll-snap-align: center; /* Center the item when scrolled */
+        margin-right: 10px; /* Space between items */
+    }
+
+    .gallery-item {
+        flex: 0 0 100%; /* Each item takes up 100% of the container's width */
+        scroll-snap-align: center; /* Center the item when scrolled */
+        margin-right: 10px; /* Space between items */
     }
 
 }
