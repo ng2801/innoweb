@@ -316,7 +316,10 @@ p {
     border-radius: 8px;
 }
 
-
+.details a{
+    color: rgb(0, 170, 0);
+    text-decoration:none;
+}
 
 #register button {
     padding: 10px 20px;
@@ -438,8 +441,8 @@ footer {
 
 .outcomes-section h2 {
     color:#ff9100 ;
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .outcomes-grid {
@@ -532,7 +535,6 @@ footer {
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
         -ms-overflow-style: none;
-        -webkit-overflow-scrolling: touch;
         display: flex;
         flex-wrap: nowrap; 
     }
@@ -547,6 +549,7 @@ footer {
         flex: 0 0 auto;  /* Each item takes up 100% of the container's width */
         scroll-snap-align: center; /* Center the item when scrolled */
         margin-right: 10px; /* Space between items */
+
     }
 
 }
