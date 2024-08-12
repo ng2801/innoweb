@@ -578,9 +578,16 @@ footer {
     }
 
     .outcomes-grid {
-        display: flex;
+        flex-wrap: nowrap;
         overflow-x: auto;
-        flex-wrap: nowrap; 
+        -webkit-overflow-scrolling: touch;
+        gap: 10px;
+    }
+
+    .outcome-item {
+        flex: 0 0 auto;
+        min-width: 80%;
+        scroll-snap-align: start;
     }
 
     .contact-section {
