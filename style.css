@@ -500,8 +500,8 @@ footer {
 }
 
 .outcome-item img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -580,10 +580,6 @@ footer {
     .outcomes-grid {
         overflow-x: auto;
         white-space: nowrap;
-        scroll-snap-type: x mandatory;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        display: flex;
         flex-wrap: nowrap; 
     }
 
