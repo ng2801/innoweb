@@ -578,25 +578,13 @@ footer {
     }
 
     .outcomes-grid {
-        overflow-x: scroll;
+        overflow-x: auto;
+        white-space: nowrap;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
         -ms-overflow-style: none;
         display: flex;
         flex-wrap: nowrap; 
-    }
-
-    .outcome-item {
-        flex: 0 0 auto;  /* Each item takes up 100% of the container's width */
-        scroll-snap-align: center; /* Center the item when scrolled */
-        margin-right: 10px; /* Space between items */
-    }
-
-    .gallery-item {
-        flex: 0 0 auto;  /* Each item takes up 100% of the container's width */
-        scroll-snap-align: center; /* Center the item when scrolled */
-        margin-right: 10px; /* Space between items */
-
     }
 
     .contact-section {
