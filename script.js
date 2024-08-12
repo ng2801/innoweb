@@ -8,7 +8,7 @@ function closeNav() {
 
 // Countdown Timer Script
 function countdown() {
-    const eventDate = new Date("September 17, 2024 00:00:00").getTime();
+    const eventDate = new Date("November 26, 2024 00:00:00").getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
 
@@ -18,7 +18,7 @@ function countdown() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML =
-       "Event Starts In " + days + " Days " + hours + "h " + minutes + "m " + seconds + "s";
+       "Event Starts In "+ days + " Days " + hours + "h " + minutes + "m " + seconds + "s";
 
     if (distance < 0) {
         clearInterval(x);
