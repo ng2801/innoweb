@@ -8,7 +8,7 @@ function closeNav() {
 
 // Countdown Timer Script
 function countdown() {
-    const eventDate = new Date("November 26, 2024 00:00:00").getTime();
+    const eventDate = new Date("January 26, 2025 00:00:00").getTime();
     const now = new Date().getTime();
     const distance = eventDate - now;
 
