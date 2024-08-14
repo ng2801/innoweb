@@ -574,14 +574,18 @@ footer {
     .outcomes-grid {
         flex-wrap: nowrap;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
         gap: 10px;
     }
 
-    .outcome-item {
-        flex: 0 0 auto;
-        min-width: 80%;
-        scroll-snap-align: start;
+    .gallery-container {
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+    
+    .gallery-container img {
+
+        border-radius: 10px;
     }
 
     .contact-section {
@@ -594,16 +598,6 @@ footer {
     .follow-us {
         width: 100%;
         margin-bottom: 20px;
-    }
-
-    .gallery-container {
-        overflow: auto;
-        white-space: nowrap;
-        padding: 10px;
-    }
-    
-    .gallery-container img {
-        border-radius: 10px;
     }
 
 }
