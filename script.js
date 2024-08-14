@@ -18,7 +18,7 @@ function countdown() {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML =
-       "Event Starts In "+ days + " Days " + hours + "h " + minutes + "m " + seconds + "s";
+       "Grand Finale In "+ days + " Days " + hours + "h " + minutes + "m " + seconds + "s";
 
     if (distance < 0) {
         clearInterval(x);
