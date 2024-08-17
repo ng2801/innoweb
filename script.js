@@ -25,5 +25,4 @@ function countdown() {
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }
-
 setInterval(countdown, 1000);
