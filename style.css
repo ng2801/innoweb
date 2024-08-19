@@ -147,12 +147,12 @@ section#poster {
     height: auto;            
 }
 
-/* Floating Register Button Styles 
+/*Floating Register Button Styles*/
 .floating-register-btn {
     position: fixed;
     bottom: 50px;
     right: 50px;
-    background-color: #ff9d00;
+    background-color: #25d366;
     color: #fff;
     padding: 15px 25px;
     border-radius: 50px;
@@ -161,11 +161,12 @@ section#poster {
     font-size: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
+    z-index: 9999;
 }
 
 .floating-register-btn:hover {
-    background-color: #e74c3c;
-}*/
+    background-color: #075E54;
+}
 
 
 #countdown-section {
@@ -597,6 +598,30 @@ footer {
     .follow-us {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .floating-register-btn {
+        position: fixed;
+        bottom: 15px;
+        right: 20px;
+        background-color: #25d366;
+        color: #fff;
+        padding: 10px 10px;
+        border-radius: 50px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+        z-index: 9999;
+    }
+    
+    .floating-register-btn:hover {
+        background-color: #075E54;
+    }
+
+    #floating i{
+        font-size: 1.5rem;
     }
 
 }
