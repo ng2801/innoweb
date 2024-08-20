@@ -443,10 +443,14 @@ footer {
 }
 
 .gallery-container {
-    overflow: auto;
+    overflow:auto;
     white-space: nowrap;
     padding: 10px;
 }
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+  }
 
 .gallery-container img {
     border-radius: 10px;
@@ -480,7 +484,7 @@ footer {
     padding: 1rem;
     background-color: #1a1a1a;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(203, 203, 203, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     position:relative;
 }
 
