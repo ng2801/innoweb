@@ -470,13 +470,13 @@ footer {
 }
 
 .gp{
-    color: #828282;
+    color: yellow;
 }
 
 .guideline {
     flex: 1;
     min-width: 300px;
-    max-width: 300px;
+    max-width: 400px;
     padding: 1rem;
     background-color: #1a1a1a;
     border-radius: 8px;
