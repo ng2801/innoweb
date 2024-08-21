@@ -6,6 +6,15 @@ function closeNav() {
     document.getElementById("side-nav").style.width = "0";
 }
 
+function toggleExpand(contentId) {
+    var content = document.getElementById(contentId);
+    if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+    } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+    }
+}
+
 // Countdown Timer Script
 function countdown() {
     const eventDate = new Date("January 26, 2025 00:00:00").getTime();

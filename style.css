@@ -332,14 +332,13 @@ p {
 }
 
 .prize-category {
+    flex: 1;
+    position:relative;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #212121; /* Light background color */
-    border-left: 5px solid #ff4500;
-    border-right: 5px solid #ff4500; /* Orange border on the left */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #1a1a1a;
     border-radius: 8px;
-    max-width: 45%;
+    max-width: 500px;
     margin: 20px auto;
 }
 
@@ -448,10 +447,6 @@ footer {
     padding: 10px;
 }
 
-.gallery-container::-webkit-scrollbar {
-    display: none;
-  }
-
 .gallery-container img {
     border-radius: 10px;
 }
@@ -480,7 +475,7 @@ footer {
 .guideline {
     flex: 1;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 300px;
     padding: 1rem;
     background-color: #1a1a1a;
     border-radius: 8px;
@@ -506,6 +501,37 @@ footer {
     text-align: center;
     color: #ff9100;
 }
+
+.idea-festsec{
+    background-image: url(images/bg8.png);
+    background-size: cover;
+    background-position:top;    
+}
+
+.idea-fest-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    gap: 30px;
+    flex-basis: 10%
+}
+
+.idea-fest{
+    flex: 1;
+    max-width: 50%;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    position:relative;
+}
+
+.idea-fest h3 {
+    margin-top: 20px; 
+    text-align: center;
+    color: #ff9100;
+}
+
 .outcomes-section {
     text-align: center;
     background-color: #1a1a1a;
@@ -539,6 +565,36 @@ footer {
     font-size: 16px;
     font-weight: 600;
 }
+
+.expand-btn {
+    background-color: #e2b500;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.expand-btn:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #313131;
+    padding: 0 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
 
 
 
@@ -575,6 +631,12 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    .idea-fest{
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
     .home-image img {
         width: 100%;
         height: auto;
