@@ -518,7 +518,7 @@ footer {
 
 .idea-fest{
     flex: 1;
-    max-width: 50%;
+    max-width: 40%;
     padding: 1rem;
     background-color: #1a1a1a;
     border-radius: 8px;
@@ -567,7 +567,7 @@ footer {
 }
 
 .expand-btn {
-    background-color: #e2b500;
+    background-color: #f5c400;
     color: white;
     padding: 10px 50px;
     border: none;
