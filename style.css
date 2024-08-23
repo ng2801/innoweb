@@ -336,7 +336,7 @@ p {
     position:relative;
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #1a1a1a;
+    background-color: #212121;
     border-radius: 8px;
     max-width: 500px;
     margin: 20px auto;
@@ -477,9 +477,9 @@ footer {
     min-width: 300px;
     max-width: 300px;
     padding: 1rem;
-    background-color: #1a1a1a;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #212121;
+    border-radius: 5px;
+    box-shadow: 10px 10px 3px rgb(148, 148, 148);
     position:relative;
 }
 
@@ -520,9 +520,9 @@ footer {
     flex: 1;
     max-width: 40%;
     padding: 1rem;
-    background-color: #1a1a1a;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #212121;
+    border-radius: 5px;
+    box-shadow: 10px 10px 3px rgb(148, 148, 148);
     position:relative;
 }
 
