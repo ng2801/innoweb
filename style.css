@@ -260,15 +260,15 @@ p {
 }
 
 .category.elementary {
-    flex-basis: 30%; 
+    flex-basis: 20%; 
 }
 
 .category.junior {
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 
 .category.senior {
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 
 #about p{
@@ -504,7 +504,7 @@ footer {
 
 .idea-festsec{
     background-image: url(images/bg8.png);
-    background-size: cover;
+    background-size:cover;
     background-position:top;   
 
 }
@@ -570,7 +570,7 @@ footer {
 .expand-btn {
     background-color: #f5c400;
     color: white;
-    padding: 10px 50px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
