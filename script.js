@@ -7,11 +7,19 @@ function closeNav() {
 }
 
 function toggleExpand(contentId) {
-    var content = document.getElementById(contentId);
-    if (content.style.maxHeight) {
-        content.style.maxHeight = null;
+    var contents = document.querySelectorAll('.content'); // Get all expandable content sections
+    
+    contents.forEach(function(content) {
+        if (content.id !== contentId) {
+            content.style.maxHeight = null; // Close all other sections
+        }
+    });
+
+    var currentContent = document.getElementById(contentId);
+    if (currentContent.style.maxHeight) {
+        currentContent.style.maxHeight = null;
     } else {
-        content.style.maxHeight = content.scrollHeight + "px";
+        currentContent.style.maxHeight = currentContent.scrollHeight + "px";
     }
 }
 
