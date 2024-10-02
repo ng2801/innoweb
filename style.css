@@ -596,7 +596,14 @@ footer {
     margin: 20px 0;
 }
 
+@media screen and (max-width: 1050px){
 
+    #home{
+        background-size: 1000%;
+        background-position: center;
+    }
+
+}
 
 
 @media screen and (max-width: 768px) {
