@@ -48,6 +48,11 @@ nav .register-button {
     margin-left: 1rem;
 }
 
+nav .register-button:hover {
+    background-color: #868686;
+}
+
+
 .register-button {
     background-color: #ff8000;
     color: white;
@@ -57,8 +62,8 @@ nav .register-button {
     text-align: center;
 }
 
-nav .register-button:hover {
-    background-color: #868686;
+.register-button:hover {
+    background-color: #9d6100;
 }
 
 nav .menu-icon {
@@ -379,11 +384,11 @@ p {
     margin: 0 auto;
 }
 
-#register a{
+/* #register a{
     color: #fff;
     font-size: large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} */
 
 #register button:hover {
     background-color: #ac6a00;
