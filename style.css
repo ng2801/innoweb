@@ -216,6 +216,7 @@ p {
 #home{
     background-image: url(images/bg10.png);
     background-size: cover;
+    height: auto;
 }
 
 #home p{
@@ -614,6 +615,23 @@ footer {
     margin: 20px 0;
 }
 
+.poster-container {
+    width: 100; /* Landscape for desktop */
+    height: auto;
+    position: relative;
+}
+
+.poster-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mobile-img {
+    display: none;
+}
+
 @media screen and (max-width: 1050px){
 
     #home{
@@ -673,6 +691,7 @@ footer {
     #home{
         background-size: 1000%;
         background-position: center;
+        height:auto;
     }
     #home h2{
         font-size: 50px;
@@ -766,8 +785,22 @@ footer {
         max-width: 100%;
         margin: 10px 0;
     }
-    
 
+    .poster-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .poster-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
